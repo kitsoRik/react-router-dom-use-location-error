@@ -1,22 +1,21 @@
-import React from 'react'
+import React from 'react';
 
-import { useLocationQuery } from 'react-use-location-query/dist/index'
-import 'react-use-location-query/dist/index.css'
+import { useLocationQuery } from 'react-use-location-query';
 
 const App = () => {
   return (
     <div>
       <SubApp />
     </div>
-  )
-}
+  );
+};
 
 const SubApp = () => {
-  useLocationQuery()
+  useLocationQuery();
   return (
     <div>
       <div></div>
     </div>
-  )
-}
-export default App
+  );
+};
+export default App;
